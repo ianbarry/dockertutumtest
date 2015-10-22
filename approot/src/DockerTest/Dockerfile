@@ -4,4 +4,4 @@ ADD . /app
 
 WORKDIR /app
 
-ENTRYPOINT ["./approot/kestrel"]
+ENTRYPOINT ["kestrel"]
