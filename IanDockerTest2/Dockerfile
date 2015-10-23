@@ -26,4 +26,4 @@ RUN ["gulp", "min"]
 
 EXPOSE 5001
 
-ENTRYPOINT ["dnx", "./", "kestrel"]
+ENTRYPOINT ["dnx", "-p", "project.json", "kestrel"]
