@@ -21,7 +21,8 @@ RUN npm install -g gulp-cli bower
 
 RUN ["dnu", "restore"]
 RUN ["npm", "install", "."]
-RUN ["gulp", "default"]
+RUN ["gulp", "clean"]
+RUN ["gulp", "min"]
 
 EXPOSE 5001
 
