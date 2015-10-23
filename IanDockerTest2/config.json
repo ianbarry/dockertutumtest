@@ -1,0 +1,7 @@
+{
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-IanDockerTest2-51dc30a6-1ec3-4712-b7fe-ad7bfcf2df76;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
